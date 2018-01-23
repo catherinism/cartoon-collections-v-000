@@ -1,4 +1,4 @@
-require 'pry'
+
 
 def roll_call_dwarves(dwarves)
 binding.pry
@@ -20,6 +20,7 @@ end
 
 def find_the_cheese(snacks)
 cheese_types = ["cheddar", "gouda", "camembert"]
+binding.pry
 if snacks.include?(cheese_types)
   true
 else
