@@ -25,4 +25,3 @@ snacks.find do |cheese|
   cheese.include?(cheese)
 end
   end
-
