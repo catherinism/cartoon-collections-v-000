@@ -1,4 +1,4 @@
-
+require 'pry'
 
 def roll_call_dwarves(dwarves)
 binding.pry
