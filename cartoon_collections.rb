@@ -1,4 +1,6 @@
 def roll_call_dwarves(dwarves)
+  i = []
+  
 end
 
 def summon_captain_planet# code an argument here
