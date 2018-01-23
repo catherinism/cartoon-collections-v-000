@@ -20,7 +20,7 @@ end
 
 def find_the_cheese(snacks)
   cheese_types = ["cheddar", "gouda", "camembert"]
-if  snacks.any?(cheese_types)
+if  snacks.include?(cheese_types)
   true
 else
   nil
