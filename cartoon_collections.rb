@@ -22,7 +22,6 @@ def find_the_cheese(snacks)
 cheese_types = ["cheddar", "gouda", "camembert"]
 
 if snacks.include?(cheese_types) {|snack| put "snack"}
-  true
 else
   nil
 end
