@@ -19,8 +19,8 @@ def long_planeteer_calls(long_words)
 end
 
 def find_the_cheese(snacks)
-  
-if  snacks.include?(cheese_types) {|cheese|}
+
+if  snacks.include?(cheese_types)
   true
 else
   nil
